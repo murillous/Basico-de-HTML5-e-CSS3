@@ -1,0 +1,15 @@
+#conteudo{
+    display: inline-block;
+    padding: 10px;
+    border: solid hsl(0, 0%, 50%);
+    border-radius: 5px;
+}
+#conteudo img{
+    width: 200px;
+}
+#conteudo #descrição{
+    text-align: center;
+}
+#conteudo:hover{
+    border-color: black;
+}

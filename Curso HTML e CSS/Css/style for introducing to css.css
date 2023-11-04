@@ -1,0 +1,17 @@
+
+/*Para usar o id usamos #, para class usamos . */
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+.even{
+    color: red;
+}
+
+.odd{
+    color: blue;
+}

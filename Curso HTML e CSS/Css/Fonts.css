@@ -1,0 +1,20 @@
+/*Font-family= aceita uma variedade de fontes pra caso o navegador não tenha suporte pra uma, tenha outra fonte pra utilizar*/
+/*Fontes que contém espaços, ex: "lucida console", PRECISAM das aspas("") para serem lidas*/
+/*Fontes do google necessitam seguir as regras da fonte para serem usadas corretamente*/
+@font-face {
+    src: url(fonts/WorkSans-Medium.ttf);
+    font-family: WS ;
+}
+@font-face {
+    src: url(fonts/LibreFranklin-Medium.ttf);
+    font-family: LF ;
+}
+h1{
+    font-family: LF,verdana, arial;
+}
+p{
+    font-family: WS, "lucida console", "courier new";
+    font-size: 1em;/*1em significa 100% o tamanho original*/
+    font-weight: bold;
+    font-style: italic;
+}

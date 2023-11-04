@@ -1,0 +1,15 @@
+#titulo{
+    border: coral 5px solid;
+    border-radius: 20px;
+}
+#texto{
+    border-bottom: dotted green;
+    
+    border-top: dashed yellow;
+    
+    border-left: double blue;
+
+    border-right: ridge red;
+    
+    border-radius: 5px;
+}

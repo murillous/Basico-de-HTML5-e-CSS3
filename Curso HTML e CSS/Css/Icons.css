@@ -1,0 +1,19 @@
+#icons{
+    text-align: center;
+}
+#icons a{
+    text-decoration: none;
+    margin: 20px;
+}
+.fa-solid.fa-house.fa-5x{
+    color:hsl(0, 0%, 62%);
+}
+.fa-brands.fa-twitter.fa-5x{
+    color: hsl(212, 88%, 50%);
+}
+.fa-brands.fa-tiktok.fa-5x{
+    color: hsl(0, 0%, 10%);
+}
+.fa-brands.fa-youtube.fa-5x{
+    color: red;
+}

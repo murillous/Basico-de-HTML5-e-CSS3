@@ -1,0 +1,16 @@
+#box {
+   
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration:0.5s;
+    animation-iteration-count: linear infinite;
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    to{transform: rotate(360deg)}
+}

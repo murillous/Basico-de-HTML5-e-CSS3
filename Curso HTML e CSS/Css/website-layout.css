@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-color: hsl(0, 0%, 80%);
+    padding: 25px;
+}
+#navbar{
+    background-color: hsl(0, 0%, 23%);
+    height: 50px;
+}
+main{
+    margin: 20px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    text-align: center;
+    background-color: hsl(0, 0%, 85%);
+    padding: 25px;
+    clear: both;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width:100%;
+    }
+}

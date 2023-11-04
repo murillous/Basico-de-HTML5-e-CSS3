@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+#box1{
+    border: solid 5px;
+    width: 250px;
+    height: 250px;
+    background-color: greenyellow;
+    text-align:center;
+    font-size: 13em;
+    max-height: 100vh;
+    max-width: 100vw;
+
+    transform:
+    translateX(200px)
+    translateY(200px)
+    rotateX(110deg)
+    rotateY(360deg)
+    rotateZ(45deg)
+    scale(0.5);
+
+    display: flex;
+    flex-direction: row;
+
+}

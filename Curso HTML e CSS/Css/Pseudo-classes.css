@@ -1,0 +1,30 @@
+.li:hover{
+    background-color: hsl(60, 100%, 75%);
+}
+.li:not(:hover){
+    background-color: gray;
+}
+ul{
+    width: 300px;
+}
+#segredo:not(:hover){
+    color: grey;
+}
+#segredo:hover{
+    color: black;
+}
+#li:nth-child(2n+1){
+    background-color: greenyellow;   
+}
+div:not(:hover) p{
+    display: none;
+    background-color: blue;
+}
+div:hover p{
+    display: block;
+    background-color: blue;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+}

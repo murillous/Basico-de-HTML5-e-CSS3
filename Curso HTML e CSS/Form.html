@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to use a form</title>
+</head>
+<body>
+
+    <form action="form.php" method="POST" enctype="multipart/form-data">
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Spongebob" minlength="6" maxlength="15" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Spongebob@gmail.com" required><br>
+
+    <label for="bday">Birthday</label>
+    <input type="date" id="bday"><br>
+
+    <label for="phone">Telefone</label>
+    <input type="tel" id="phone" placeholder="98391-2943" pattern="[0-9]{5}-[0-9]{4}" required><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+    <label for="Title">Title:</label>
+
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." name="Title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." name="Title">
+    <label for="PhD">PhD</label>
+    <input type="radio" id="PhD" name="Title"><br>
+
+    <Label for="payment">Payment</Label>
+    <select id="payment">
+        <option value="Visa">Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Hipercard">Hipercard</option>
+        <option value="Elo">Elo</option>
+    </select><br>
+
+    <label for="subscribe">Subscribe</label>
+    <input type="checkbox" id="subscribe"><br>
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" cols="30" rows="3"></textarea><br>
+
+    <label for="file">File:</label>
+    <input type="file" id="file" accept="image/jpeg, image/png"><br>
+
+    <input type="submit"><br>
+    <input type="reset">
+    </form>
+
+</body>
+</html>

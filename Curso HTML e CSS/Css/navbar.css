@@ -1,0 +1,49 @@
+:root{
+    --cor1-fundo : hsl(0, 0%, 35%);
+    --cor-hover : hsl(0, 0%, 25%);
+    --cor-primaria : white;
+}
+h1{
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+main{
+    margin: 20px;
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    background-color: var(--cor1-fundo);
+    position: relative;
+    left:0;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    display: inline-block;
+    padding: 10px;
+}
+#navbar ul li{
+    display: inline;
+    position: relative;
+}
+#navbar ul li a:hover {
+    background-color: var(--cor-hover );
+    transition: 0.3s;
+}
+/*DROPDOWN*/
+
+#navbar ul ul{
+    display: none;
+    position: absolute;
+    width: auto;
+}
+#navbar ul li:hover ul{
+    display: block;
+    transition: 0.3s;
+}
+#navbar ul ul li a{
+    display: block;
+}
